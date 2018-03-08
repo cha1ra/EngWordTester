@@ -14,3 +14,6 @@
 - If you push any key, you can see...
   - Japanese meanings
   - Example sentences translated to Japanese
+
+ # Lisense
+ - MIT
