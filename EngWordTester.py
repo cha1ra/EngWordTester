@@ -1,9 +1,14 @@
+# -*- coding: utf-8 -*-
 #https://glosbe.com/a-api APIを用いた 単語帳システム開発
 #cha1ra 2018.03.02
 #MIT Lisense
 
 import urllib.request
 import json
+
+#追記
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 #APIで情報を取得していきます
 def getInformation(phrase):
